@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Максим](https://up.htmlacademy.ru/htmlcss/28/user/1492251).
-* Наставник: `Ярослав`.
+* Наставник: [Ярослав](https://htmlacademy.ru/profile/id234926).
 
 ---
 

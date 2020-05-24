@@ -19,81 +19,131 @@
           <a href="#">Корзина</a>
         </nav>
       </header>
+
       <main>
         <h1>Магазин готовых шаблонов</h1>
-        <section>
+
+        <section><!-- Здесь фильтр -->
+          <h2>Фильтр товаров</h2>
+          <form action="https://echo.htmlacademy.ru" method="get">
+            <!---->
+            <fieldset>
+              <legend>Сетка:</legend>
+              <ul>
+                <li>
+                  <input type="radio" name="grid-type" value="adaptive" id="filter-adaptive" checked>
+                  <label for="filter-adaptive">Адаптивная</label>
+                </li>
+                <li>
+                  <input type="radio" name="grid-type" value="fixed" id="filter-fixed">
+                  <label for="filter-fixed">Фиксированная</label>
+                </li>
+                <li>
+                  <input type="radio" name="grid-type" value="rubber" id="filter-rubber">
+                  <label for="filter-rubber">Резиновая</label>
+                </li>
+              </ul>
+            </fieldset>>
+            <!---->
+            <fieldset>
+              <legend>Особенности:</legend>
+              <ul>
+                <li>
+                  <input type="checkbox" name="slider" id="filter-slider">
+                  <label for="filter-slider">Слайдер</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="block-advantages" id="filter-block-advantages">
+                  <label for="filter-block-advantages">Блок преимуществ</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="news" id="filter-news">
+                  <label for="filter-news">Новости</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="gallery" id="filter-gallery">
+                  <label for="filter-gallery">Галерея</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="basket" id="filter-basket">
+                  <label for="filter-basket">Корзина</label>
+                </li>
+              </ul>
+            </fieldset>>
+            <!---->
+            <button type="submit">Показать</button>
+          </form>
+        </section>
+
+        <section><!--Товар сайта-->
           <h2>Наш каталог</h2>
-
-          <section><!-- Здесь фильтр -->
-            <h2>Фильтр товаров</h2>
-            <form action="https://echo.htmlacademy.ru" method="get">
-              <!---->
-              <fieldset>
-                <legend>Сетка:</legend>
-                <ul>
-                  <li><input type="radio" name="grid-type" value="adaptive" id="filter-adaptive" checked>
-                    <label for="filter-adaptive">Адаптивная</label>
-                  </li>
-                  <li><input type="radio" name="grid-type" value="fixed" id="filter-fixed">
-                    <label for="filter-fixed">Фиксированная</label>
-                  </li>
-                  <li><input type="radio" name="grid-type" value="rubber" id="filter-rubber">
-                    <label for="filter-rubber">Резиновая</label>
-                  </li>
-                </ul>
-              </fieldset>>
-              <!---->
-              <fieldset>
-                <legend>Особенности:</legend>
-                <ul>
-                  <li>
-                    <input type="checkbox" name="slider" id="filter-slider">
-                    <label for="filter-slider">Слайдер</label>
-                  </li>
-                  <li>
-                    <input type="checkbox" name="block-advantages" id="filter-block-advantages">
-                    <label for="filter-block-advantages">Блок преимуществ</label>
-                  </li>
-                  <li>
-                    <input type="checkbox" name="news" id="filter-news">
-                    <label for="filter-news">Новости</label>
-                  </li>
-                  <li>
-                    <input type="checkbox" name="gallery" id="filter-gallery">
-                    <label for="filter-gallery">Галерея</label>
-                  </li>
-                  <li>
-                    <input type="checkbox" name="basket" id="filter-basket">
-                    <label for="filter-basket">Корзина</label>
-                  </li>
-                </ul>
-              </fieldset>>
-              <!---->
-              <button type="submit">Показать</button>
-            </form>
-            <!-- Здесь будет форма фильтра -->
-          </section>
-
-          <!--Товар сайта-->
           <ul>
-              <li>
-                <img src="" alt="" width="" height=""><!--Нужна картинка-->
-              </li>
-              <li>
-                <img src="" alt="" width="" height=""><!--Нужна картинка-->
-              </li>
-              <li>
-                <img src="" alt="" width="" height=""><!--Нужна картинка-->
-              </li>
-              <li>
-                <img src="" alt="" width="" height=""><!--Нужна картинка-->
-              </li>
-              <li>
-                <img src="" alt="" width="" height=""><!--Нужна картинка-->
-              </li>
-              <li>
-                <img src="" alt="" width="" height=""><!--Нужна картинка-->
-              </li>
+            <li>
+              <img src="" alt="" width="" height=""><!--Нужна картинка-->
+              <section>
+                <h3>Sedona</h3>
+                <p>
+                  Информационный сайт <br>
+                  для туристов
+                </p>
+                <a href="#">9 900 ₽</a>
+              </section>
+            </li>
+            <li>
+              <img src="" alt="" width="" height=""><!--Нужна картинка-->
+              <section>
+                <h3>Pink App</h3>
+                <p>
+                  Продуктовый лендинг <br>
+                  приложения для iOS и Android
+                </p>
+                <a href="#">9 900 ₽</a>
+              </section>
+            </li>
+            <li>
+              <img src="" alt="" width="" height=""><!--Нужна картинка-->
+              <section>
+                <h3>Barbershop</h3>
+                <p>
+                  Сайт салона красоты. <br>
+                  Для мужчин, да.
+                </p>
+                <a href="#">9 900 ₽</a>
+              </section>
+            </li>
+            <li>
+              <img src="" alt="" width="" height=""><!--Нужна картинка-->
+              <section>
+                <h3>MISHKA</h3>
+                <p>
+                  Интернет-магазин <br>
+                  вязаных игрушек
+                </p>
+                <a href="#">9 900 ₽</a>
+              </section>
+            </li>
+            <li>
+              <img src="" alt="" width="" height=""><!--Нужна картинка-->
+              <section>
+                <h3>A Plus</h3>
+                <p>
+                  Лендинг курсов повышения <br>
+                  квалификации
+                </p>
+                <a href="#">9 900 ₽</a>
+              </section>
+            </li>
+            <li>
+              <img src="" alt="" width="" height=""><!--Нужна картинка-->
+              <section>
+                <h3>КВАСТ</h3>
+                <p>
+                  Промо-сайт производителя <br>
+                  крафтового кваса
+                </p>
+                <a href="#">9 900 ₽</a>
+              </section>
+            </li>
           </ul>
         </section>
       </main>
@@ -102,16 +152,15 @@
         <section>
           <h2>Мы в соц сетях</h2>
           <ul>
-            <li> <img src="" alt="Картинка ВК" width="" height=""> </li><!--Нужна картинка-->
-            <li> <img src="" alt="Картинка Фейсбук" width="" height=""> </li><!--Нужна картинка-->
-            <li> <img src="" alt="Картинка Инстаграм" width="" height=""> </li><!--Нужна картинка-->
+            <li><a href="#">ВК</a></li>
+            <li><a href="#">Фейсбук</a></li>
+            <li><a href="#">Инстаграм</a></li>
           </ul>
-      </section>
-        <section>
-          <h2>Акция</h2>
-          <p>Давайте дружить, это выгодно!</p>
-          <p>Скидка 10% для друзей из социальных сетей</p>
         </section>
+        <p class="social-text">
+           Давайте дружить, это выгодно!
+          <span>Скидка 10% для друзей из социальных сетей</span>
+        </p>
       </footer>
       
 </body>

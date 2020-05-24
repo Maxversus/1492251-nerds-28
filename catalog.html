@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
@@ -23,25 +24,54 @@
         <section>
           <h2>Наш каталог</h2>
 
-          <!--Секция с доп Навигацией-->
-          <section>
-            <h3>Сетка:</h3>
-            <ul>
-                <li>Адаптивная</li>
-                <li>Фиксированная</li>
-                <li>Резиновая</li>
-            </ul>
-
-            <h3>Особенности:</h3>
-            <ul>
-                <li>Слайдер</li>
-                <li>Блок преимуществ</li>
-                <li>Новости</li>
-                <li>Галерея</li>
-                <li>Корзина</li>
-            </ul>
-
-            <a href="">Показать</a>
+          <section><!-- Здесь фильтр -->
+            <h2>Фильтр товаров</h2>
+            <form action="https://echo.htmlacademy.ru" method="get">
+              <!---->
+              <fieldset>
+                <legend>Сетка:</legend>
+                <ul>
+                  <li><input type="radio" name="grid-type" value="adaptive" id="filter-adaptive" checked>
+                    <label for="filter-adaptive">Адаптивная</label>
+                  </li>
+                  <li><input type="radio" name="grid-type" value="fixed" id="filter-fixed">
+                    <label for="filter-fixed">Фиксированная</label>
+                  </li>
+                  <li><input type="radio" name="grid-type" value="rubber" id="filter-rubber">
+                    <label for="filter-rubber">Резиновая</label>
+                  </li>
+                </ul>
+              </fieldset>>
+              <!---->
+              <fieldset>
+                <legend>Особенности:</legend>
+                <ul>
+                  <li>
+                    <input type="checkbox" name="slider" id="filter-slider">
+                    <label for="filter-slider">Слайдер</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="block-advantages" id="filter-block-advantages">
+                    <label for="filter-block-advantages">Блок преимуществ</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="news" id="filter-news">
+                    <label for="filter-news">Новости</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="gallery" id="filter-gallery">
+                    <label for="filter-gallery">Галерея</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="basket" id="filter-basket">
+                    <label for="filter-basket">Корзина</label>
+                  </li>
+                </ul>
+              </fieldset>>
+              <!---->
+              <button type="submit">Показать</button>
+            </form>
+            <!-- Здесь будет форма фильтра -->
           </section>
 
           <!--Товар сайта-->
@@ -69,12 +99,16 @@
       </main>
       
       <footer>
-        <ul>
-          <li> <img src="" alt="Картинка ВК" width="" height=""> </li><!--Нужна картинка-->
-          <li> <img src="" alt="Картинка Фейсбук" width="" height=""> </li><!--Нужна картинка-->
-          <li> <img src="" alt="Картинка Инстаграм" width="" height=""> </li><!--Нужна картинка-->
-        </ul>
         <section>
+          <h2>Мы в соц сетях</h2>
+          <ul>
+            <li> <img src="" alt="Картинка ВК" width="" height=""> </li><!--Нужна картинка-->
+            <li> <img src="" alt="Картинка Фейсбук" width="" height=""> </li><!--Нужна картинка-->
+            <li> <img src="" alt="Картинка Инстаграм" width="" height=""> </li><!--Нужна картинка-->
+          </ul>
+      </section>
+        <section>
+          <h2>Акция</h2>
           <p>Давайте дружить, это выгодно!</p>
           <p>Скидка 10% для друзей из социальных сетей</p>
         </section>

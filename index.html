@@ -8,7 +8,7 @@
 
     <header>
       <nav>
-        <a href="index.html"><img src="./img/nerds-logo.svg" alt="Картинка Логотипа" width="160" height="65"></a><!--Нужна картинка-->
+        <a href="index.html"><img src="./img/nerds-logo.svg" alt="Картинка Логотипа" width="160" height="65"></a>
         <ul>
           <li><a href="">Студия</a></li>
           <li><a href="">Клиенты</a></li>
@@ -71,7 +71,6 @@
         <ul>
 
           <li><!--Первая секция-->
-            <img src="./img/illustration-1 1.jpg" alt="Картинка ноутбука" width="300" height="146"><!--Нужна картинка-->
             <h3>Веб-сайты</h3>
             <p>
               Мир никогда не будет прежним<br>
@@ -81,7 +80,6 @@
           </li>
 
           <li><!--Вторая секция-->
-            <img src="./img/illustration-2 1.jpg" alt="Картинка телефона" width="300" height="146"><!--Нужна картинка-->
             <h3>Приложения</h3>
             <p>
               Покорите топ-10 приложений в<br>
@@ -91,7 +89,6 @@
           </li>
 
           <li><!--Третья секция-->
-            <img src="./img/illustration-3 1.jpg" alt="Картинка презентации" width="300" height="146"><!--Нужна картинка-->
             <h3>Презентации</h3>
             <p>
               Вы даже не подозреваете, <br>
@@ -104,12 +101,15 @@
       </section>
       <section>
         <h2>О нас</h2>
-        <p>Мы — маленькая, но гордая<br>
+        <p>
+          Мы — маленькая, но гордая<br>
           дизайн-студия из Краснодара.
         </p>
-        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>
+        <p>
+          Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>
           превыше креатива. Работаем не покладая рук, как роботы.
         </p>
+
         <section>
           <h3>Выполняем заказы на разработку:</h3>
           <ul>
@@ -119,10 +119,34 @@
           </ul>
         </section>
         
+        <section>
+          <h3>с 2004 года Любим точность во всем:</h3>
+          <table>
+            <tr>   <th>150 <sup>%</sup></th>   <th>100 <sup>%</sup></th>   <th>50 <sup>%</sup></th ></tr>
+            <tr>   <td>Уровень<br>самоотдачи</td>   <td>Соблюдение <br>сроков</td>   <td>Минимальная <br>предоплата</td>   </tr>
+          </table>
+        </section>
+
+        <section><!--Проекты-->
+          <h3>Наши работы</h3>
+          <ul>
+            <li><a href="#"><img src="img/Group 5.svg" alt="Сайт htmlacademy" width="199px" height="68px"></a></li>
+            <li><a href="#"><img src="img/logo-2 1.svg" alt="Сайт barbershop" width="209px" height="90px"></a></li>
+            <li><a href="#"><img src="img/logo-3 1.svg" alt="Сайт Pink" width="185px" height="52px"></a></li>
+            <li><a href="#"><img src="img/logo-4 1.svg" alt="Сайт Mishka" width="173px" height="84px"></a></li>
+          </ul>
+        </section>
       </section>
-      <section>
-        <h2>Где нас найти</h2>
-        <img src="./img/Group 12.png" alt="Наш адрес на карте" width="100%" height="416">
+      <section><!--Карта-->
+        <h2>Как нас найти</h2>
+        <img src="./img/Group 12.png" alt="Карта" width="100%" height="416">
+
+        <p>
+          <span>NЁRDS DESIGN STUDIO</span><br>
+          191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8<br>
+          тел. +7 (812) 275-75-75<br>
+          <a href="mailto:">Напишите нам</a>
+        </p>
       </section>
       
     </main>
@@ -141,6 +165,25 @@
         <span>Скидка 10% для друзей из социальных сетей</span>
       </p>
     </footer>
+
+    <section>
+      <h2>Напишите нам</h2>
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <p>
+          <label for="email-name">Ваше имя:</label>
+          <input id="email-name" type="text" name="Name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="email-email">Ваш Email:</label>
+          <input id="email-email" type="email" name="Email" placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="email-text">Текст письма:</label>
+          <input id="email-text" type="text" name="Text" placeholder="В свободно форме">
+        </p>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
 
   </body>
 </html>

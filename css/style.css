@@ -13,13 +13,7 @@
 
 :root {
   --basic-black: #000000;
-  --basic-extra-dark: #242424;
-  --basic-dark: #aba9a7;
-  --basic-neutral: #e5e5e5;
-  --basic-extra-light: #f8f5f2;
   --basic-white: #ffffff;
-
-  --special: #663d15;
 }
 /*Global*/
 
@@ -45,3 +39,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+li{
+  list-style-type: none;
+}
+ul{
+  margin-left: 0;
+  padding-left: 0;
+}
+

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -27,17 +29,17 @@
           <h2>Фильтр товаров</h2>
           <form action="https://echo.htmlacademy.ru" method="get">
             <fieldset>
-              <legend>Сортировать:</legend>
-              <ul>
-                <li></li>
-                <li></li>
-              </ul>
-            </fieldset>
-          </form>
-          <form action="https://echo.htmlacademy.ru" method="get">
-            <fieldset>
               <legend>Стоимость:</legend>
-
+              <ul>
+                <li>
+                  <label for="filter-cost">От</label>
+                  <input id="minimum-cost" type="text" name="minimum-cost" placeholder="0" value="0">
+                </li>
+                <li>
+                  <label for="filter-cost">До</label>
+                  <input id="maximum-cost" type="text" name="maximum-cost" placeholder="15000" value="15000">
+                </li>
+              </ul>
             </fieldset>
             <!----><!---->
             <fieldset>
